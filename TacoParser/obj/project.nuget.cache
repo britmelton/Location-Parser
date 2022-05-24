@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MIBxj5zuKs9TXvd0dm3wqsLFtMgJA3JsjGCbWQNii2eRHCvtbbN98BziD6K8vrdbPKVvOCF0tyqSIDfFny41IQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\britt\\source\\repos\\Taco-Parser\\TacoParser\\TacoParser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\britt\\.nuget\\packages\\geocoordinate.netcore\\1.0.0.1\\geocoordinate.netcore.1.0.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

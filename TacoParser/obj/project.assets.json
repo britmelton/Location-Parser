@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "GeoCoordinate.NetCore/1.0.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.6/GeoCoordinate.NetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.6/GeoCoordinate.NetCore.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GeoCoordinate.NetCore/1.0.0.1": {
+      "sha512": "VrR5MLkh0u2qka79JcQ/GUrgHwGidayCA7nKy2430qYX/JHdrHLgwp1MuBTSsygWs0s2V6GQ0Hp8HUMatHiWFw==",
+      "type": "package",
+      "path": "geocoordinate.netcore/1.0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "geocoordinate.netcore.1.0.0.1.nupkg.sha512",
+        "geocoordinate.netcore.nuspec",
+        "lib/netstandard1.6/GeoCoordinate.NetCore.deps.json",
+        "lib/netstandard1.6/GeoCoordinate.NetCore.dll"
+      ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Domain >= 1.0.0",
+      "GeoCoordinate.NetCore >= 1.0.0.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\britt\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\britt\\source\\repos\\Taco-Parser\\TacoParser\\TacoParser.csproj",
+      "projectName": "TacoParser",
+      "projectPath": "C:\\Users\\britt\\source\\repos\\Taco-Parser\\TacoParser\\TacoParser.csproj",
+      "packagesPath": "C:\\Users\\britt\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\britt\\source\\repos\\Taco-Parser\\TacoParser\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\britt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\britt\\source\\repos\\Taco-Parser\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\britt\\source\\repos\\Taco-Parser\\Domain\\Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "GeoCoordinate.NetCore": {
+            "target": "Package",
+            "version": "[1.0.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TacoParser/1.0.0": {
+        "dependencies": {
+          "Domain": "1.0.0",
+          "GeoCoordinate.NetCore": "1.0.0.1"
+        },
+        "runtime": {
+          "TacoParser.dll": {}
+        }
+      },
+      "GeoCoordinate.NetCore/1.0.0.1": {
+        "runtime": {
+          "lib/netstandard1.6/GeoCoordinate.NetCore.dll": {
+            "assemblyVersion": "1.0.0.1",
+            "fileVersion": "1.0.0.1"
+          }
+        }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TacoParser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeoCoordinate.NetCore/1.0.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VrR5MLkh0u2qka79JcQ/GUrgHwGidayCA7nKy2430qYX/JHdrHLgwp1MuBTSsygWs0s2V6GQ0Hp8HUMatHiWFw==",
+      "path": "geocoordinate.netcore/1.0.0.1",
+      "hashPath": "geocoordinate.netcore.1.0.0.1.nupkg.sha512"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

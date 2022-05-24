@@ -1,0 +1,5 @@
+C:\Users\britt\source\repos\Taco-Parser\TacoParser\obj\Debug\net5.0\TacoParser.csproj.AssemblyReference.cache
+C:\Users\britt\source\repos\Taco-Parser\TacoParser\obj\Debug\net5.0\TacoParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\britt\source\repos\Taco-Parser\TacoParser\obj\Debug\net5.0\TacoParser.AssemblyInfoInputs.cache
+C:\Users\britt\source\repos\Taco-Parser\TacoParser\obj\Debug\net5.0\TacoParser.AssemblyInfo.cs
+C:\Users\britt\source\repos\Taco-Parser\TacoParser\obj\Debug\net5.0\TacoParser.csproj.CoreCompileInputs.cache

@@ -1,0 +1,5 @@
+C:\Users\britt\source\repos\Taco-Parser\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+C:\Users\britt\source\repos\Taco-Parser\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\britt\source\repos\Taco-Parser\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Users\britt\source\repos\Taco-Parser\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Users\britt\source\repos\Taco-Parser\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
